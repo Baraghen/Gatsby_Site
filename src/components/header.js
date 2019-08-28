@@ -1,2 +1,2 @@
 import React from "react"
-export default props => <h2>{props.headerText}</h2>
+export default props => <h3>{props.headerText}</h3>

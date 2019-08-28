@@ -1,11 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
+import Container from "../components/container"
+import Header from "../components/header"
 export default () => (
-    <Layout>
-    <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
-    <p>
+<Layout>
+    <Container>
+        <Header headerText="Cool stuff I've made" />
+        <p>
         What do I like to do? Lots of course but definitely enjoy building
         websites.
-    </p>
-    </Layout>
+        </p>
+    </Container>
+</Layout>
 )
