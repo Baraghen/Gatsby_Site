@@ -1,12 +1,9 @@
 import React from "react"
 import Header from "../components/header"
-import Menu from "../components/menu"
+import Layout from "../components/layout"
 export default () => (
-<div class="container">
-  <div>
-    <Menu />
+  <Layout>
     <Header headerText="Contact" />
     <p>Send us a message!</p>
-  </div>
-</div>
+  </Layout>
 )

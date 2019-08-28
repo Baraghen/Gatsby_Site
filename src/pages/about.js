@@ -1,12 +1,12 @@
 import React from "react"
 import Header from "../components/header"
-import Menu from "../components/menu"
+import Layout from "../components/layout"
+import Container from "../components/container"
 export default () => (
-<div class="container">
-  <div>
-    <Menu />
-    <Header headerText="This is my Gatsby Site" />
-    <p>Cool beans.</p>
-  </div>
-</div>
+  <Layout>
+    <Container>
+    <Header headerText="Who is Samir B?" />
+    <p>If only I knew..</p>
+    </Container>
+  </Layout>
 )

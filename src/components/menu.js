@@ -1,16 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
-export default () => 
-<table class="menu" cellpadding="0px" cellspacing="0px">
-    <tr>
-        <td>
-            <Link to="/">Home</Link>
-        </td>
-        <td>
-            <Link to="/about/">About</Link>
-        </td>
-        <td>
-            <Link to="/contact/">Contact</Link>
-        </td>
-    </tr>
-</table>
+
+export default () =>
+<div>
+    <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+    <h3 style={{ textAlign: `center` }}>Samir B - Portfolio</h3>
+    </Link>
+    <ul style={{ listStyle: `none`, width: `100%`, textAlign: `center`, margin: `0`}}>
+    <ListLink to="/">Home</ListLink>
+    <ListLink to="/about/">About</ListLink>
+    <ListLink to="/contact/">Contact</ListLink>
+    </ul>
+</div>
