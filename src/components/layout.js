@@ -10,11 +10,10 @@ const linkStyles = {
   display: `inline-block`,
   textDecoration: `none`,
   textShadow: `none`,
-  color: `rgb(54, 241, 205)`
+  color: `rgb(170, 255, 255)`,
 }
 
 const activeStyles = {
-  textShadow: `5px, 5px, 5px #FFF`,
   textDecoration: `none`,
   textShadow: `none`
 }
